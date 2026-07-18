@@ -35,7 +35,7 @@
     "ci:lint:tests": "eslint --max-warnings 1 test",
     "ci:format": "prettier --list-different lib test",
     "ci:format:lib": "prettier --list-different lib",
-    "ci:format:tests": "prettier --list-different tests",
+    "ci:format:tests": "prettier --list-different test",
     "ci:typecheck": "npm run ci:typecheck:lib && npm run ci:typecheck:tests",
     "ci:typecheck:lib": "tsc -p lib/tsconfig.json",
     "ci:typecheck:tests": "tsc -p test/tsconfig.json",
